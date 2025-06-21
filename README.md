@@ -39,10 +39,16 @@ This project is ideal for small to medium-sized hotels that require reliable sof
 
 **/HotelBookingSystem**
 │
+
 ├── **/src**               # C++ source code files
+
 ├── **/include**          # Header files
+
 ├── **/sql**               # SQL scripts for database setup
+
 ├── **/docs**             # Project documentation (if any)
+
 ├── **README.md**          # This file
+
 └── **config.ini**         # Configuration for database connection (if used)
 
