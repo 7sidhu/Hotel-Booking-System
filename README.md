@@ -70,7 +70,7 @@ HotelBookingSystem/
     <pre>git clone https://github.com/your-username/Hotel-Booking-System.git</pre>
   </li>
   <li>Set up the MySQL database using scripts in the <b>/sql</b> folder.</li>
-  <li>Download "Connector/C++" and Configure <code>config.ini</code> with your database credentials.</li>
+  <li>Download and install the MySQL Connector/C++. Then, configure config.ini with your database credentials.</li>
   <li>Build and run the project in <b>Visual Studio 2022</b>.</li>
 </ol>
 
