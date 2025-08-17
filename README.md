@@ -1,54 +1,52 @@
-# Hotel-Booking-System
-The Hotel Booking System project is a locally hosted desktop application designed to streamline hotel management operations in an offline environment.
+📖 Project Overview
 
-**Project Overview**
-The Hotel Booking System is a desktop-based application developed in <b>Visual Studio 2022</b> using **C++**, designed to manage hotel operations locally without the need for internet connectivity. Integrated with a **MySQL database**, the system allows hotel staff to efficiently handle **reservations**,**guest records**, **billing**, and **administrative tasks** from within a secure, multi-terminal environment.
+This project is a desktop-based application developed in C++ (Visual Studio 2022) and integrated with a MySQL database. It allows hotel staff to efficiently handle:
 
-This project is ideal for small to medium-sized hotels that require reliable software for day-to-day management while maintaining full control over their data infrastructure.
+Reservations
 
-**Features**
+Guest records
 
-**Offline Operation:** Works entirely on a local system or intranet server; no internet required.
+Billing
 
-**Role-Based Access Terminals**
+Administrative tasks
 
-**Owner Terminal:** Access to full administrative controls, reports, and system configuration.
+⚡ Designed for small to medium-sized hotels, this system provides a reliable solution for day-to-day management while ensuring data security and control in a multi-terminal environment.
 
-**Reception Terminal:** Handles room bookings, guest check-ins and check-outs.
+✨ Features
 
-**Cash Counter Terminal:** Manages billing, invoices, and payments.
+🔌 Offline Operation – Works entirely on a local system or intranet server; no internet required.
 
-**Database Integration:** Built on MySQL for structured data management. Uses C++ SQL connectors to communicate with the database.
+👥 Role-Based Access Terminals
 
-**User Authentication:** Secure login for each terminal to ensure data protection and controlled access.
+Owner Terminal → Full admin controls, reports, configurations.
 
-**Efficient Booking and Room Management:** Real-time room availability tracking, guest information management, and reservation history.
+Reception Terminal → Room bookings, check-ins & check-outs.
 
-**Scalable and Maintainable:** Modular codebase to allow easy updates and new feature integration.
+Cash Counter Terminal → Billing, invoices, and payments.
 
-**Technologies Used:**
-**Programming Language:** C++
+🗄️ Database Integration – Built on MySQL with C++ SQL connectors.
 
-**IDE:** Visual Studio 2022
+🔐 User Authentication – Secure login for each terminal.
 
-**Database:** MySQL
+🏷️ Efficient Room & Booking Management – Real-time availability, guest info, reservation history.
 
-**Connector/API:** MySQL Connector/C++ (or appropriate database interface)
+⚙️ Scalable & Maintainable – Modular codebase for easy updates.
 
-**Project Structure**
+🛠️ Technologies Used
 
-**/HotelBookingSystem**
+Programming Language: C++
+
+IDE: Visual Studio 2022
+
+Database: MySQL
+
+Connector/API: MySQL Connector/C++
+
+HotelBookingSystem/
 │
-
-├── **/src**               # C++ source code files
-
-├── **/include**          # Header files
-
-├── **/sql**               # SQL scripts for database setup
-
-├── **/docs**             # Project documentation (if any)
-
-├── **README.md**          # This file
-
-└── **config.ini**         # Configuration for database connection (if used)
-
+├── src/           # C++ source code files
+├── include/       # Header files
+├── sql/           # SQL scripts for database setup
+├── docs/          # Project documentation (if any)
+├── config.ini     # Database configuration (if used)
+└── README.md      # Project description
