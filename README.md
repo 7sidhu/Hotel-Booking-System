@@ -1,52 +1,83 @@
-📖 Project Overview
+<h1 align="center">🏨 Hotel Booking System</h1>
 
-This project is a desktop-based application developed in C++ (Visual Studio 2022) and integrated with a MySQL database. It allows hotel staff to efficiently handle:
+<p align="center">
+  The <b>Hotel Booking System</b> is a locally hosted <b>desktop application</b> designed to streamline hotel management operations in an <b>offline environment</b>.
+</p>
 
-Reservations
+<hr>
 
-Guest records
+<h2>📖 Project Overview</h2>
+<p>
+This project is a <b>desktop-based application</b> developed in <b>C++ (Visual Studio 2022)</b> and integrated with a <b>MySQL database</b>. It allows hotel staff to efficiently handle:
+</p>
+<ul>
+  <li>Reservations</li>
+  <li>Guest records</li>
+  <li>Billing</li>
+  <li>Administrative tasks</li>
+</ul>
+<p>
+⚡ Designed for <b>small to medium-sized hotels</b>, this system provides a reliable solution for <b>day-to-day management</b> while ensuring <b>data security</b> and <b>multi-terminal support</b>.
+</p>
 
-Billing
+<hr>
 
-Administrative tasks
+<h2>✨ Features</h2>
+<ul>
+  <li>🔌 <b>Offline Operation</b> – Works entirely on a local system or intranet server; no internet required.</li>
+  <li>👥 <b>Role-Based Access Terminals</b>
+    <ul>
+      <li><b>Owner Terminal</b> → Full admin controls, reports, configurations.</li>
+      <li><b>Reception Terminal</b> → Room bookings, check-ins & check-outs.</li>
+      <li><b>Cash Counter Terminal</b> → Billing, invoices, and payments.</li>
+    </ul>
+  </li>
+  <li>🗄️ <b>Database Integration</b> – Built on <b>MySQL</b> with <b>C++ SQL connectors</b>.</li>
+  <li>🔐 <b>User Authentication</b> – Secure login for each terminal.</li>
+  <li>🏷️ <b>Efficient Room & Booking Management</b> – Real-time availability, guest info, reservation history.</li>
+  <li>⚙️ <b>Scalable & Maintainable</b> – Modular codebase for easy updates.</li>
+</ul>
 
-⚡ Designed for small to medium-sized hotels, this system provides a reliable solution for day-to-day management while ensuring data security and control in a multi-terminal environment.
+<hr>
 
-✨ Features
+<h2>🛠️ Technologies Used</h2>
+<ul>
+  <li><b>Programming Language:</b> C++</li>
+  <li><b>IDE:</b> Visual Studio 2022</li>
+  <li><b>Database:</b> MySQL</li>
+  <li><b>Connector/API:</b> MySQL Connector/C++</li>
+</ul>
 
-🔌 Offline Operation – Works entirely on a local system or intranet server; no internet required.
+<hr>
 
-👥 Role-Based Access Terminals
+<h2>📂 Project Structure</h2>
 
-Owner Terminal → Full admin controls, reports, configurations.
-
-Reception Terminal → Room bookings, check-ins & check-outs.
-
-Cash Counter Terminal → Billing, invoices, and payments.
-
-🗄️ Database Integration – Built on MySQL with C++ SQL connectors.
-
-🔐 User Authentication – Secure login for each terminal.
-
-🏷️ Efficient Room & Booking Management – Real-time availability, guest info, reservation history.
-
-⚙️ Scalable & Maintainable – Modular codebase for easy updates.
-
-🛠️ Technologies Used
-
-Programming Language: C++
-
-IDE: Visual Studio 2022
-
-Database: MySQL
-
-Connector/API: MySQL Connector/C++
-
+<pre>
 HotelBookingSystem/
 │
-├── src/           # C++ source code files
-├── include/       # Header files
+├── src/           # Three C++ source code files for 3 user terminals
+├── include/       # C++ and MySQL connector files
 ├── sql/           # SQL scripts for database setup
-├── docs/          # Project documentation (if any)
 ├── config.ini     # Database configuration (if used)
 └── README.md      # Project description
+</pre>
+
+<hr>
+
+<h2>🚀 How to Run</h2>
+<ol>
+  <li>Clone the repository:
+    <pre>git clone https://github.com/your-username/Hotel-Booking-System.git</pre>
+  </li>
+  <li>Set up the MySQL database using scripts in the <b>/sql</b> folder.</li>
+  <li>Download "Connector/C++" and Configure <code>config.ini</code> with your database credentials.</li>
+  <li>Build and run the project in <b>Visual Studio 2022</b>.</li>
+</ol>
+
+<hr>
+
+<h2>📌 Future Enhancements</h2>
+<ul>
+  <li>Web-based version with remote access.</li>
+  <li>Advanced reporting & analytics dashboard.</li>
+</ul>
